@@ -1,2 +1,4 @@
 web: env RUBY_DEBUG_OPEN=true bin/rails server
-build: yarn build:js --watch && yarn build:css --watch && yarn stimulus:update:watch
+js: yarn build:js --watch
+css: yarn build:css --watch
+stimulus: yarn stimulus:update:watch
